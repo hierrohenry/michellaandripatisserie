@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Cakes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #ffcc99;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .cake-item {
+            flex: 1 1 300px;  /* Makes the cake items responsive */
+            margin: 15px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .image-container {
+            width: 100%;
+            padding-top: 100%; /* This keeps the aspect ratio square */
+            background: center / cover no-repeat url('https://via.placeholder.com/400x400'); /* Placeholder for the image */
+        }
+        .description-container {
+            padding: 15px;
+            max-height: 150px;  /* Limit the vertical height */
+            overflow: auto;     /* Add a scrollbar if content overflows */
+        }
+        .description-container h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .description-container p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .contact {
+            background-color: #ffcc99;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Cakes</h1>
+        <p>Freshly Baked Cakes for Every Occasion</p>
+    </header>
+
+    <div class="content">
+        <!-- Cake 1 -->
+        <div class="cake-item">
+            <div class="image-container" style="background-image: url('https://via.placeholder.com/400x400');"></div>
+            <div class="description-container">
+                <h2>Classic Chocolate Cake</h2>
+                <p>Our rich and moist chocolate cake is perfect for any chocolate lover! It's made with the finest cocoa and a decadent chocolate frosting. Perfect for birthdays or special celebrations.</p>
+            </div>
+        </div>
+
+        <!-- Cake 2 -->
+        <div class="cake-item">
+            <div class="image-container" style="background-image: url('https://via.placeholder.com/400x400');"></div>
+            <div class="description-container">
+                <h2>Vanilla Dream Cake</h2>
+                <p>This light and fluffy vanilla cake is complemented by smooth, creamy vanilla frosting. A classic choice for weddings, anniversaries, or just a sweet treat for any occasion.</p>
+            </div>
+        </div>
+
+        <!-- Cake 3 -->
+        <div class="cake-item">
+            <div class="image-container" style="background-image: url('https://via.placeholder.com/400x400');"></div>
+            <div class="description-container">
+                <h2>Red Velvet Cake</h2>
+                <p>Our red velvet cake combines a light texture with a hint of cocoa flavor, topped with a rich cream cheese frosting. A favorite for both its taste and eye-catching color!</p>
+            </div>
+        </div>
+
+        <!-- Cake 4 -->
+        <div class="cake-item">
+            <div class="image-container" style="background-image: url('https://via.placeholder.com/400x400');"></div>
+            <div class="description-container">
+                <h2>Strawberry Shortcake</h2>
+                <p>Fresh strawberries, fluffy sponge cake, and whipped cream come together in this delightful treat. Ideal for summer celebrations or whenever you're craving something fruity and light!
+                    Fresh strawberries, fluffy sponge cake, and whipped cream come together in this delightful treat. Ideal for summer celebrations or whenever you're craving something fruity and light!
+                    Fresh strawberries, fluffy sponge cake, and whipped cream come together in this delightful treat. Ideal for summer celebrations or whenever you're craving something fruity and light!
+                    Fresh strawberries, fluffy sponge cake, and whipped cream come together in this delightful treat. Ideal for summer celebrations or whenever you're craving something fruity and light!
+                </p>
+            </div>
+        </div>
+
+        <div class="cake-item">
+            <div class="image-container" style="background-image: url('https://via.placeholder.com/400x400');"></div>
+            <div class="description-container">
+                <h2>Strawberry Shortcake 2</h2>
+                <p>Fresh strawberries, fluffy sponge cake, and whipped cream come together in this delightful treat. Ideal for summer celebrations or whenever you're craving something fruity and light!</p>
+            </div>
+        </div>
+
+        <div class="cake-item">
+            <div class="image-container" style="background-image: url('https://via.placeholder.com/400x400');"></div>
+            <div class="description-container">
+                <h2>Strawberry Shortcake</h2>
+                <p>Fresh strawberries, fluffy sponge cake, and whipped cream come together in this delightful treat. Ideal for summer celebrations or whenever you're craving something fruity and light!</p>
+            </div>
+        </div>
+
+        <div class="cake-item">
+            <div class="image-container" style="background-image: url('https://via.placeholder.com/400x400');"></div>
+            <div class="description-container">
+                <h2>Strawberry Shortcake 2</h2>
+                <p>Fresh strawberries, fluffy sponge cake, and whipped cream come together in this delightful treat. Ideal for summer celebrations or whenever you're craving something fruity and light!</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="contact">
+        <p>For Orders & Inquiries:</p>
+        <p>Email: contact@deliciouscakes.com | Phone: (123) 456-7890</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Michella Andri Pattiserie. All rights reserved.</p>
+    </footer>
+</body>
+</html>
